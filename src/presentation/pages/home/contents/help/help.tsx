@@ -3,9 +3,7 @@ import { cn } from "../../../../../@lib/utils";
 import { AnimatedBeamDemo } from "../../../../customComponents/animatedBeam";
 import { SparklesTextDemo } from "../../../../customComponents/sparkleText";
 
-type Props = {};
-
-const Help = (props: Props) => {
+const Help = () => {
   return (
     <div className="relative flex w-[80%] mx-auto py-11">
       <div className=" h-full w-1/2">

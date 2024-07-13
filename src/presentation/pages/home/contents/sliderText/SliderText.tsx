@@ -1,6 +1,4 @@
-type Props = {};
-
-const SliderText = (props: Props) => {
+const SliderText = () => {
   return <div className="">{/* <ScrollBasedVelocityDemo /> */}</div>;
 };
 
