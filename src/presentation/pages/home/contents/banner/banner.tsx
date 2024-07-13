@@ -33,15 +33,6 @@ const Banner = (props: Props) => {
             "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12"
           )}
         />
-        <GridPattern
-          width={20}
-          height={20}
-          x={-1}
-          y={-1}
-          className={cn(
-            "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] "
-          )}
-        />
       </div>
       <div className="w-[80%] mx-auto  px-10">
         <div className="bg-white dark:bg-zinc-900 py-9 px-5 rounded-xl ">

@@ -65,7 +65,7 @@ const Header = (props: Props) => {
       )}
     >
       <div>
-        <h1 className="">Cyclops</h1>
+        <h1 className="text-bold text-5xl font-bold">Cyclops</h1>
       </div>
       <div>
         <ul className="flex gap-6 cursor-pointer">

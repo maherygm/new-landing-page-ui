@@ -23,13 +23,13 @@ export function MagicCardDemo() {
         className="cursor-pointer flex-col items-center justify-center  whitespace-nowrap text-4xl w-96"
         gradientColor={!IsDark ? "#262626" : "#3f3f3f10"}
       >
-        Card
+        Of
       </MagicCard>
       <MagicCard
         className="cursor-pointer flex-col items-center justify-center  whitespace-nowrap text-4xl w-96"
         gradientColor={!IsDark ? "#262626" : "#3f3f3f10"}
       >
-        Card
+        AI
       </MagicCard>
     </div>
   );
