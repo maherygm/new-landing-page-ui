@@ -3,7 +3,7 @@ import { MagicCard } from "@/@components/magicui/magic-card";
 export function MagicCardDemo() {
   const IsDark = getTheme() === "light" ? true : false;
 
-  function getTheme(): string | void {
+  function getTheme() {
     return localStorage.getItem("theme");
   }
 

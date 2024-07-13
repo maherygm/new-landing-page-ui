@@ -2,12 +2,11 @@ import clsx from "clsx";
 import { useEffect, useState } from "react";
 import { CiDark, CiLight } from "react-icons/ci";
 import Button from "../../../../../@components/ui/button";
-type Props = {};
 
-const Header = (props: Props) => {
+const Header = () => {
   const IsDark = getTheme() === "light" ? true : false;
 
-  function getTheme(): string | void {
+  function getTheme() {
     return localStorage.getItem("theme");
   }
 

@@ -5,9 +5,7 @@ import { cn } from "../../../../../@lib/utils";
 import { BoxRevealDemo } from "../../../../customComponents/boxReveal";
 import { IconCloudDemo } from "../../../../customComponents/iconCloud";
 
-type Props = {};
-
-const Banner = (props: Props) => {
+const Banner = () => {
   return (
     <div className=" h-screen flex flex-col items-center">
       <div className="relative p-10 mt-20 w-[80%] flex justify-between  mx-auto">

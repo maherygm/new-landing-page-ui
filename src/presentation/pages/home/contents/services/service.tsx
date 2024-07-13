@@ -1,9 +1,8 @@
 import AnimatedGridPattern from "@/@components/magicui/animated-grid-pattern";
 import { cn } from "../../../../../@lib/utils";
 import { MagicCardDemo } from "../../../../customComponents/magicCard";
-type Props = {};
 
-const Service = (props: Props) => {
+const Service = () => {
   return (
     <div className="w-[80%] relative mx-auto my-9 flex flex-col gap-10 py-40">
       <div className="flex relative flex-col gap-6 items-center justify-center">
