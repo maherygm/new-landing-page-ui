@@ -4,9 +4,7 @@ import Header from "./contents/header/header";
 import Help from "./contents/help/help";
 import Service from "./contents/services/service";
 
-type Props = {};
-
-const Home = (props: Props) => {
+const Home = () => {
   //document.body.classList.add("dark");
 
   return (
