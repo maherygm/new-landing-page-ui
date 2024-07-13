@@ -1,8 +1,6 @@
 import { MarqueeDemo } from "../../../../customComponents/MarqueeDemo";
 
-type Props = {};
-
-const AboutUs = (props: Props) => {
+const AboutUs = () => {
   return (
     <div className="w-[80vw] mx-auto">
       <MarqueeDemo />

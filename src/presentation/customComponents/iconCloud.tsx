@@ -36,7 +36,7 @@ const slugs = [
 export function IconCloudDemo() {
   return (
     <div className="relative flex h-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg  bg-background px-20 pb-20 pt-8 ">
-      <IconCloud iconSlugs={slugs} theme={"dark"} />
+      <IconCloud iconSlugs={slugs} />
     </div>
   );
 }
