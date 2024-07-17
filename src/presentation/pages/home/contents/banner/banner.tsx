@@ -7,7 +7,7 @@ import { IconCloudDemo } from "../../../../customComponents/iconCloud";
 
 const Banner = () => {
   return (
-    <div className=" h-screen flex flex-col items-center">
+    <div className=" h-full flex flex-col items-center">
       <div className="relative p-10 mt-20 w-[80%] flex justify-between  mx-auto">
         <BoxRevealDemo />
         <IconCloudDemo />

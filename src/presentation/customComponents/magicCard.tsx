@@ -10,7 +10,7 @@ export function MagicCardDemo() {
   return (
     <div
       className={
-        "flex h-[500px] w-full flex-col justify-around lg:h-[250px] lg:flex-row"
+        "flex h-[500px] w-full flex-col justify-around lg:h-[250px] lg:flex-row p-4 gap-4 items-center"
       }
     >
       <MagicCard
